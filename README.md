@@ -1,1 +1,1 @@
-![top](https://raw.githubusercontent.com/Muoshy/2x3-macropad/master/Images/case_plate.jpg)
+![top](https://raw.githubusercontent.com/Muoshy/2x3-macropad/master/Images/plate_case.jpg)
