@@ -1,0 +1,444 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:ProMicro U1
+U 1 1 5ED96B53
+P 2200 3000
+F 0 "U1" H 2200 3837 60  0000 C CNN
+F 1 "ProMicro" H 2200 3731 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 3250 500 60  0001 C CNN
+F 3 "" V 3250 500 60  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 5ED98CF2
+P 5050 2500
+F 0 "K1" H 5050 2733 60  0000 C CNN
+F 1 "KEYSW" H 5050 2400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5050 2500 60  0001 C CNN
+F 3 "" H 5050 2500 60  0000 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 5ED99A21
+P 5950 2500
+F 0 "K2" H 5950 2733 60  0000 C CNN
+F 1 "KEYSW" H 5950 2400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5950 2500 60  0001 C CNN
+F 3 "" H 5950 2500 60  0000 C CNN
+	1    5950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 5ED9AE39
+P 5050 3150
+F 0 "K4" H 5050 3383 60  0000 C CNN
+F 1 "KEYSW" H 5050 3050 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5050 3150 60  0001 C CNN
+F 3 "" H 5050 3150 60  0000 C CNN
+	1    5050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 5ED9AE3F
+P 5950 3150
+F 0 "K5" H 5950 3383 60  0000 C CNN
+F 1 "KEYSW" H 5950 3050 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 5950 3150 60  0001 C CNN
+F 3 "" H 5950 3150 60  0000 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 5ED9B383
+P 6850 3150
+F 0 "K6" H 6850 3383 60  0000 C CNN
+F 1 "KEYSW" H 6850 3050 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6850 3150 60  0001 C CNN
+F 3 "" H 6850 3150 60  0000 C CNN
+	1    6850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 5ED9B92F
+P 6850 2500
+F 0 "K3" H 6850 2733 60  0000 C CNN
+F 1 "KEYSW" H 6850 2400 60  0001 C CNN
+F 2 "Keebio-Parts:MX_PCB_100H" H 6850 2500 60  0001 C CNN
+F 3 "" H 6850 2500 60  0000 C CNN
+	1    6850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 5ED9D2F5
+P 6850 1650
+F 0 "SW2" V 6850 2300 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" V 6950 2300 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6700 1810 50  0001 C CNN
+F 3 "~" H 6850 1910 50  0001 C CNN
+	1    6850 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B D1
+U 1 1 5EDA53E4
+P 3550 4050
+F 0 "D1" H 3150 3850 50  0000 L CNN
+F 1 "WS2812B" H 3000 3750 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3600 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3650 3675 50  0001 L TNN
+	1    3550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D2
+U 1 1 5EDA7303
+P 4600 4050
+F 0 "D2" H 4950 3800 50  0000 L CNN
+F 1 "WS2812B" H 4950 3700 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4650 3750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4700 3675 50  0001 L TNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5EDA7EFB
+P 4750 2600
+F 0 "D3" V 4796 2532 50  0000 R CNN
+F 1 "D_Small" V 4705 2532 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4750 2600 50  0001 C CNN
+F 3 "~" V 4750 2600 50  0001 C CNN
+	1    4750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5EDAAEF2
+P 4750 3250
+F 0 "D6" V 4796 3182 50  0000 R CNN
+F 1 "D_Small" V 4705 3182 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 4750 3250 50  0001 C CNN
+F 3 "~" V 4750 3250 50  0001 C CNN
+	1    4750 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5EDAB93A
+P 5650 2600
+F 0 "D4" V 5696 2532 50  0000 R CNN
+F 1 "D_Small" V 5605 2532 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5650 2600 50  0001 C CNN
+F 3 "~" V 5650 2600 50  0001 C CNN
+	1    5650 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5EDABC70
+P 5650 3250
+F 0 "D7" V 5696 3182 50  0000 R CNN
+F 1 "D_Small" V 5605 3182 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 5650 3250 50  0001 C CNN
+F 3 "~" V 5650 3250 50  0001 C CNN
+	1    5650 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5EDAC0E1
+P 6550 2600
+F 0 "D5" V 6596 2532 50  0000 R CNN
+F 1 "D_Small" V 6505 2532 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6550 2600 50  0001 C CNN
+F 3 "~" V 6550 2600 50  0001 C CNN
+	1    6550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5EDAC5C5
+P 6550 3250
+F 0 "D8" V 6596 3182 50  0000 R CNN
+F 1 "D_Small" V 6505 3182 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-dual" V 6550 3250 50  0001 C CNN
+F 3 "~" V 6550 3250 50  0001 C CNN
+	1    6550 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 2500 5350 3150
+Wire Wire Line
+	5650 2700 4750 2700
+Wire Wire Line
+	6250 2500 6250 3150
+Wire Wire Line
+	7150 2500 7150 3150
+Connection ~ 5650 2700
+Wire Wire Line
+	6550 3350 5650 3350
+Connection ~ 5650 3350
+Wire Wire Line
+	5650 3350 4750 3350
+Text GLabel 4600 2700 0    50   Input ~ 0
+row0
+Text GLabel 4600 3350 0    50   Input ~ 0
+row1
+Text GLabel 5350 2300 1    50   Input ~ 0
+col0
+Text GLabel 6250 2300 1    50   Input ~ 0
+col1
+Text GLabel 7150 2300 1    50   Input ~ 0
+col2
+Wire Wire Line
+	5350 2500 5350 2300
+Connection ~ 5350 2500
+Wire Wire Line
+	6250 2500 6250 2300
+Connection ~ 6250 2500
+Wire Wire Line
+	7150 2500 7150 2300
+Connection ~ 7150 2500
+Wire Wire Line
+	4750 3350 4600 3350
+Connection ~ 4750 3350
+Wire Wire Line
+	4750 2700 4600 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	6450 1950 6750 1950
+Wire Wire Line
+	7150 2500 7550 2500
+Wire Wire Line
+	7550 2500 7550 1950
+Wire Wire Line
+	7550 1950 6950 1950
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5ED9BD15
+P 3300 2200
+F 0 "SW1" H 3300 2455 50  0000 C CNN
+F 1 "SW_PUSH" H 3300 2364 50  0000 C CNN
+F 2 "SW_Tactile_SMD_5_2x5_2:SW_PTS525SM15SMTR2LFS" H 3300 2200 60  0001 C CNN
+F 3 "" H 3300 2200 60  0000 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5EF62DF4
+P 3700 2750
+F 0 "#PWR02" H 3700 2600 50  0001 C CNN
+F 1 "VCC" H 3717 2923 50  0000 C CNN
+F 2 "" H 3700 2750 50  0001 C CNN
+F 3 "" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5EF6CA23
+P 4100 3750
+F 0 "#PWR03" H 4100 3600 50  0001 C CNN
+F 1 "VCC" H 4117 3923 50  0000 C CNN
+F 2 "" H 4100 3750 50  0001 C CNN
+F 3 "" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3750 4100 3750
+Wire Wire Line
+	4100 3750 3550 3750
+Connection ~ 4100 3750
+Wire Wire Line
+	2900 2550 3000 2550
+Wire Wire Line
+	3000 2550 3000 2400
+Wire Wire Line
+	3600 2200 3600 2650
+Wire Wire Line
+	3600 2650 2900 2650
+Wire Wire Line
+	2900 2750 3700 2750
+$Comp
+L power:GND #PWR01
+U 1 1 5EF72646
+P 1050 2750
+F 0 "#PWR01" H 1050 2500 50  0001 C CNN
+F 1 "GND" H 1055 2577 50  0000 C CNN
+F 2 "" H 1050 2750 50  0001 C CNN
+F 3 "" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2750 1050 2750
+Wire Wire Line
+	1500 2650 1050 2650
+Wire Wire Line
+	1050 2650 1050 2750
+Connection ~ 1050 2750
+Wire Wire Line
+	3850 4050 4300 4050
+$Comp
+L power:GND #PWR04
+U 1 1 5EF773BF
+P 4100 4350
+F 0 "#PWR04" H 4100 4100 50  0001 C CNN
+F 1 "GND" H 4105 4177 50  0000 C CNN
+F 2 "" H 4100 4350 50  0001 C CNN
+F 3 "" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4350 4100 4350
+Connection ~ 4100 4350
+Wire Wire Line
+	4100 4350 4600 4350
+$Comp
+L power:GND #PWR05
+U 1 1 5EF7AFB0
+P 6850 1350
+F 0 "#PWR05" H 6850 1100 50  0001 C CNN
+F 1 "GND" H 6855 1177 50  0000 C CNN
+F 2 "" H 6850 1350 50  0001 C CNN
+F 3 "" H 6850 1350 50  0001 C CNN
+	1    6850 1350
+	-1   0    0    1   
+$EndComp
+Text GLabel 6500 1300 1    50   Input ~ 0
+B1
+Text GLabel 7200 1300 1    50   Input ~ 0
+A1
+Wire Wire Line
+	6950 1350 7200 1350
+Wire Wire Line
+	7200 1350 7200 1300
+Wire Wire Line
+	6750 1350 6500 1350
+Wire Wire Line
+	6500 1350 6500 1300
+NoConn ~ 4900 4050
+Wire Wire Line
+	5650 2700 6550 2700
+Wire Wire Line
+	6450 1950 6450 2500
+Wire Wire Line
+	6450 2500 6550 2500
+Connection ~ 6550 2500
+$Comp
+L Device:Rotary_Encoder_Switch SW3
+U 1 1 5EFA3009
+P 5000 1700
+F 0 "SW3" V 5000 2350 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" V 5100 2350 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 4850 1860 50  0001 C CNN
+F 3 "~" H 5000 1960 50  0001 C CNN
+	1    5000 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5EFA300F
+P 5000 1400
+F 0 "#PWR06" H 5000 1150 50  0001 C CNN
+F 1 "GND" H 5005 1227 50  0000 C CNN
+F 2 "" H 5000 1400 50  0001 C CNN
+F 3 "" H 5000 1400 50  0001 C CNN
+	1    5000 1400
+	-1   0    0    1   
+$EndComp
+Text GLabel 4650 1350 1    50   Input ~ 0
+B1
+Text GLabel 5350 1350 1    50   Input ~ 0
+A1
+Wire Wire Line
+	5100 1400 5350 1400
+Wire Wire Line
+	5350 1400 5350 1350
+Wire Wire Line
+	4900 1400 4650 1400
+Wire Wire Line
+	4650 1400 4650 1350
+Wire Wire Line
+	4750 2500 4750 2000
+Wire Wire Line
+	4750 2000 4900 2000
+Connection ~ 4750 2500
+Wire Wire Line
+	5350 2500 5550 2500
+Wire Wire Line
+	5550 2500 5550 2000
+Wire Wire Line
+	5550 2000 5100 2000
+Text GLabel 2900 2850 2    50   Input ~ 0
+col0
+Text GLabel 2900 2950 2    50   Input ~ 0
+col1
+Text GLabel 2900 3050 2    50   Input ~ 0
+col2
+Text GLabel 2900 3150 2    50   Input ~ 0
+row0
+Text GLabel 2900 3250 2    50   Input ~ 0
+row1
+$Comp
+L power:GND #PWR0101
+U 1 1 5EFAC71F
+P 3200 2400
+F 0 "#PWR0101" H 3200 2150 50  0001 C CNN
+F 1 "GND" H 3205 2227 50  0000 C CNN
+F 2 "" H 3200 2400 50  0001 C CNN
+F 3 "" H 3200 2400 50  0001 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2400 3000 2400
+Connection ~ 3000 2400
+Wire Wire Line
+	3000 2400 3000 2200
+Text GLabel 2900 3350 2    50   Input ~ 0
+A1
+Text GLabel 2900 3450 2    50   Input ~ 0
+B1
+NoConn ~ 1500 3550
+NoConn ~ 1500 3450
+NoConn ~ 1500 3350
+NoConn ~ 1500 3250
+NoConn ~ 1500 3150
+NoConn ~ 1500 3050
+NoConn ~ 1500 2950
+NoConn ~ 1500 2850
+NoConn ~ 1500 2550
+NoConn ~ 1500 2450
+NoConn ~ 2900 2450
+Wire Wire Line
+	3250 4050 2900 4050
+Wire Wire Line
+	2900 4050 2900 3550
+$EndSCHEMATC
