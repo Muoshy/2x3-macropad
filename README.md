@@ -28,15 +28,11 @@ For max contrast when engraving, use 2 layer acrylic for the top plate.
 
 ## BOM
 
-| Component                			| Quantity 	| Link 								|
-|--------------------------			|----------	|------								|
-| MX switches              			| 6x[^1]    |      								|
-| 1N4148 diodes            			| 6x       	|      								|
-| 5.2x5.2mm SMD pushbutton 			| 1x       	| [Mouser](https://www.mouser.se/ProductDetail/611-PTS526SK08SMTR2L) 	|
-| Arduino Pro Micro 5V 16 MHz   	| 1x       	|      								|
-| WS2812B                  			| 2x[^2]    |      								|
-| EC11 Encoder Switch 15mm shaft   	| 1x[^1]    |      								|
-
-[^1]: Only 5 switches needed if using encoder.
-[^2]: Optional.
-
+| Component                		| Quantity 	| Link 								|
+|--------------------------		|----------	|------								|
+| MX switches              		| 6x       	|      								|
+| 1N4148 diodes            		| 6x       	|      								|
+| 5.2x5.2mm SMD pushbutton 		| 1x       	| [Mouser](https://www.google.com) 	|
+| Arduino Pro Micro 5V 16 MHz   | 1x       	|      								|
+| WS2812B                  		| 2x       	|      								|
+| EC11 Encoder 15mm shaft   	| 1x       	|      								|
