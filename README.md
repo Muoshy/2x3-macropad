@@ -33,6 +33,7 @@ For further customization (encoder keycodes), setup a QMK build environment and 
 ## Flashing
   - Download and open QMK Toolbox
   - Select HEX file
+  - Choose ATMega32u4 as microcontroller
   - Push reset button on board and then press flash button in toolbox.
 
 ## Keybinds
