@@ -17,4 +17,7 @@ Extremely simple 2x3 macropad with sandwich case.
 
 
 ## Case
+![case](https://raw.githubusercontent.com/Muoshy/2x3-macropad/master/Images/sandwich_case.png)
+Choose one of the three switch plates according to your encoder placement. 
+For max contrast when engraving, use 2 layer acrylic for the top plate.
 
