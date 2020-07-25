@@ -24,3 +24,15 @@ For max contrast when engraving, use 2 layer acrylic for the top plate.
   - 4x M3 20mm screws
   - 4x M3 nuts
 
+## Software
+
+## BOM
+
+| Component                	| Quantity 	| Link 	|
+|--------------------------	|----------	|------	|
+| MX switches              	| 6x       	|      	|
+| 1N4148 diodes            	| 6x       	|      	|
+| 5.2x5.2mm SMD pushbutton 	| 1x       	|      	|
+| Arduino Pro Micro        	| 1x       	|      	|
+| WS2812B                  	| 2x       	|      	|
+| EC11 Encoder             	| 1x       	|      	|
