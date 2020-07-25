@@ -21,3 +21,6 @@ Extremely simple 2x3 macropad with sandwich case.
 Choose one of the three switch plates according to your encoder placement. 
 For max contrast when engraving, use 2 layer acrylic for the top plate.
 
+  - 4x M3 20mm screws
+  - 4x M3 nuts
+
